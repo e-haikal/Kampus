@@ -2,17 +2,32 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/iv_foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/noimage"
+        android:scaleType="centerCrop"></ImageView>
 
     <TextView
         android:id="@+id/txt_nama"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nama Mahasiswa"></TextView>
+        android:text="Nama Mahasiswa"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="5dp"></TextView>
     <TextView
         android:id="@+id/txt_nim"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NIM Mahasiswa"></TextView>
+        android:text="NIM Mahasiswa"
+        android:textSize="16sp"
+        android:textColor="#333333"></TextView>
 </LinearLayout>
