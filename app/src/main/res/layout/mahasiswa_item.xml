@@ -3,7 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="10dp"
     android:orientation="vertical"
     android:gravity="center"
     android:layout_margin="5dp">
@@ -16,18 +15,26 @@
         android:scaleType="centerCrop"></ImageView>
 
     <TextView
-        android:id="@+id/txt_nama"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Nama Mahasiswa"
-        android:textSize="18sp"
-        android:textColor="#333333"
-        android:layout_marginBottom="5dp"></TextView>
-    <TextView
         android:id="@+id/txt_nim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NIM Mahasiswa"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="5dp"></TextView>
+
+    <TextView
+        android:id="@+id/txt_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mahasiswa"
         android:textSize="16sp"
-        android:textColor="#333333"></TextView>
+        android:textColor="#333333"
+        android:layout_marginBottom="5dp"></TextView>
+
+    <Button
+        android:id="@+id/btn_hapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"></Button>
 </LinearLayout>

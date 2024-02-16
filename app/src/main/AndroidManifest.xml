@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Kampus"
         tools:targetApi="31">
         <activity
+            android:name=".Mahasiswa_Hapus"
+            android:exported="false" />
+        <activity
+            android:name=".Mahasiswa_Tambah"
+            android:exported="false" />
+        <activity
             android:name=".Mahasiswa"
             android:exported="true">
             <intent-filter>
